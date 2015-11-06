@@ -11,9 +11,9 @@
 		AAA4C7EE1BED49CD000962D7 /* PowerZoneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4C7ED1BED49CD000962D7 /* PowerZoneData.swift */; };
 		AAA4C7F01BED4E17000962D7 /* TrainingZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4C7EF1BED4E17000962D7 /* TrainingZone.swift */; };
 		AAA4C7F21BED53F9000962D7 /* PowerZoneViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4C7F11BED53F9000962D7 /* PowerZoneViewCell.swift */; };
-		AAA4C7F61BED5D29000962D7 /* HeartRateZoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4C7F51BED5D29000962D7 /* HeartRateZoneTableViewController.swift */; };
 		AAA4C7F81BED5D87000962D7 /* HeartRateZoneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4C7F71BED5D87000962D7 /* HeartRateZoneData.swift */; };
 		AAA4C7FA1BED5F97000962D7 /* HeartRateZoneViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4C7F91BED5F97000962D7 /* HeartRateZoneViewCell.swift */; };
+		AAA4C7FC1BED64AB000962D7 /* HeartRateZoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4C7FB1BED64AB000962D7 /* HeartRateZoneTableViewController.swift */; };
 		AAEC89561BED3BFA006A7A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC89551BED3BFA006A7A5B /* AppDelegate.swift */; };
 		AAEC89581BED3BFA006A7A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC89571BED3BFA006A7A5B /* ViewController.swift */; };
 		AAEC895B1BED3BFA006A7A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC89591BED3BFA006A7A5B /* Main.storyboard */; };
@@ -22,7 +22,6 @@
 		AAEC89631BED3BFA006A7A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC89611BED3BFA006A7A5B /* LaunchScreen.storyboard */; };
 		AAEC896E1BED3BFB006A7A5B /* TrainingZonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC896D1BED3BFB006A7A5B /* TrainingZonesTests.swift */; };
 		AAEC89791BED3BFB006A7A5B /* TrainingZonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC89781BED3BFB006A7A5B /* TrainingZonesUITests.swift */; };
-		AAEC89871BED41B8006A7A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEC89861BED41B8006A7A5B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +46,9 @@
 		AAA4C7ED1BED49CD000962D7 /* PowerZoneData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerZoneData.swift; sourceTree = "<group>"; };
 		AAA4C7EF1BED4E17000962D7 /* TrainingZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingZone.swift; sourceTree = "<group>"; };
 		AAA4C7F11BED53F9000962D7 /* PowerZoneViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerZoneViewCell.swift; sourceTree = "<group>"; };
-		AAA4C7F51BED5D29000962D7 /* HeartRateZoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeartRateZoneTableViewController.swift; path = ../HeartRateZoneTableViewController.swift; sourceTree = "<group>"; };
 		AAA4C7F71BED5D87000962D7 /* HeartRateZoneData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateZoneData.swift; sourceTree = "<group>"; };
 		AAA4C7F91BED5F97000962D7 /* HeartRateZoneViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateZoneViewCell.swift; sourceTree = "<group>"; };
+		AAA4C7FB1BED64AB000962D7 /* HeartRateZoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateZoneTableViewController.swift; sourceTree = "<group>"; };
 		AAEC89521BED3BFA006A7A5B /* TrainingZones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingZones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEC89551BED3BFA006A7A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEC89571BED3BFA006A7A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +63,6 @@
 		AAEC89741BED3BFB006A7A5B /* TrainingZonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingZonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEC89781BED3BFB006A7A5B /* TrainingZonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingZonesUITests.swift; sourceTree = "<group>"; };
 		AAEC897A1BED3BFB006A7A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAEC89861BED41B8006A7A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +113,7 @@
 		AAEC89541BED3BFA006A7A5B /* TrainingZones */ = {
 			isa = PBXGroup;
 			children = (
-				AAA4C7F51BED5D29000962D7 /* HeartRateZoneTableViewController.swift */,
+				AAA4C7FB1BED64AB000962D7 /* HeartRateZoneTableViewController.swift */,
 				AAA4C7F71BED5D87000962D7 /* HeartRateZoneData.swift */,
 				AAEC89551BED3BFA006A7A5B /* AppDelegate.swift */,
 				AAEC89571BED3BFA006A7A5B /* ViewController.swift */,
@@ -126,7 +124,6 @@
 				AAA4C7E91BED48C7000962D7 /* PowerZonesViewController.swift */,
 				AAA4C7EF1BED4E17000962D7 /* TrainingZone.swift */,
 				AAEC895F1BED3BFA006A7A5B /* Assets.xcassets */,
-				AAEC89861BED41B8006A7A5B /* Assets.xcassets */,
 				AAEC89611BED3BFA006A7A5B /* LaunchScreen.storyboard */,
 				AAEC89641BED3BFA006A7A5B /* Info.plist */,
 				AAEC895C1BED3BFA006A7A5B /* TrainingZones.xcdatamodeld */,
@@ -258,7 +255,6 @@
 			files = (
 				AAEC89631BED3BFA006A7A5B /* LaunchScreen.storyboard in Resources */,
 				AAEC89601BED3BFA006A7A5B /* Assets.xcassets in Resources */,
-				AAEC89871BED41B8006A7A5B /* Assets.xcassets in Resources */,
 				AAEC895B1BED3BFA006A7A5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,10 +283,10 @@
 				AAA4C7EA1BED48C7000962D7 /* PowerZonesViewController.swift in Sources */,
 				AAA4C7F81BED5D87000962D7 /* HeartRateZoneData.swift in Sources */,
 				AAEC89581BED3BFA006A7A5B /* ViewController.swift in Sources */,
+				AAA4C7FC1BED64AB000962D7 /* HeartRateZoneTableViewController.swift in Sources */,
 				AAA4C7FA1BED5F97000962D7 /* HeartRateZoneViewCell.swift in Sources */,
 				AAEC89561BED3BFA006A7A5B /* AppDelegate.swift in Sources */,
 				AAA4C7EE1BED49CD000962D7 /* PowerZoneData.swift in Sources */,
-				AAA4C7F61BED5D29000962D7 /* HeartRateZoneTableViewController.swift in Sources */,
 				AAA4C7F01BED4E17000962D7 /* TrainingZone.swift in Sources */,
 				AAEC895E1BED3BFA006A7A5B /* TrainingZones.xcdatamodeld in Sources */,
 				AAA4C7F21BED53F9000962D7 /* PowerZoneViewCell.swift in Sources */,
